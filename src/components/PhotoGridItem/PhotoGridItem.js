@@ -23,7 +23,7 @@ const PhotoGridItem = ({ id, src, alt, tags }) => {
                 `}
               />
           </picture>
-        <Image src={src} />
+        <Image alt={alt} src={src} />
       </Anchor>
       <Tags>
         {tags.map((tag) => (
